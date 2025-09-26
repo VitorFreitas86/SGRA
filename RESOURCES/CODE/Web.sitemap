@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Início" description="Home" url="~/users/home.aspx">
+    <siteMapNode url="" title="Autorização Condução" description="Autorização Condução" accesskey="" >
+      <siteMapNode url="Users/inserir_conducao.aspx" title="Novo Pedido de Condução"
+                   description="Novo Pedido de Condução" accesskey="" />
+      <siteMapNode url="Users/segunda_via_conducao.aspx" title="Operações s/ Pedidos de Condução"
+                   description="Operações s/ Pedidos" accesskey="" />
+
+      <siteMapNode url="Users/consultar_conducao.aspx" title="Histórico de Pedidos de Condução"
+                   description="Histórico" accesskey="N" target="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="Circulação de viatura" description="Circulação de viatura" accesskey="" >
+      <siteMapNode url="Users/inserir_viatura.aspx" title="Novo Pedido de Circulação de Viatura"
+                   description="Novo Pedido de Circulação de Viatura" accesskey="" />
+      <siteMapNode url="Users/segunda_via_viatura.aspx" title="Operações s/ Pedidos de Circulação de Viaturas"
+                   description="Operações s/ Pedidos" accesskey="" />
+
+      <siteMapNode url="Users/consultar_viatura.aspx" title="Histórico de Pedidos de Circulação de Viaturas"
+                   description="Histórico" accesskey="N" target="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="Cartão de Identificação/acesso" description="Cartão de Identificação/acesso" accesskey="" >
+      <siteMapNode url="Users/inserir_cartao.aspx" title="Novo Pedido de Cartão "
+                   description="Novo Pedido de Cartão" accesskey="" />
+      <siteMapNode url="Users/segunda_via_cartao.aspx" title="Operações s/ Pedidos de Cartões "
+                   description="Operações s/ Pedidos" accesskey="" />
+
+      <siteMapNode url="Users/consultar_cartao.aspx" title="Histórico de Pedidos de Cartões "
+                   description="Histórico" accesskey="N" target="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Administração" description="Administração" accesskey="" >
+      <siteMapNode url="admin/consultar_dados_user.aspx" title="Gerir Utilizadores"
+                   description="Utilizadores" accesskey="" />
+      <siteMapNode url="admin/entidade.aspx" title="Gerir Entidades"
+                   description="Entidades" accesskey="" />
+      <siteMapNode url="admin/gerir_pedidos.aspx" title="Gerir Pedidos de Condução"
+                description="Pedidos de Condução" accesskey="" />
+      <siteMapNode url="admin/gerir_viatura.aspx" title="Gerir Pedidos de Viaturas"
+        description="Pedidos de Viaturas" accesskey="" />
+      <siteMapNode url="admin/gerir_cartao.aspx" title="Gerir Pedidos de Cartões"
+        description="Pedidos de Cartões" accesskey="" />
+      <siteMapNode url="users/alterarpwd.aspx" title="Alterar Palavra-chave"
+                   description="alterarpalavrachave" accesskey="" />
+      <siteMapNode url="users/Admin_parecer.aspx" title="Emissão Parecer"
+             description="Emissão Parecer" accesskey="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
